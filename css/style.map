@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"$text_color: white;\n@mixin box {\n    display: block;\n    width: 250 px;\n    height: 200 px;\n    background-color: blue; }\n.block {\n    background-color: black;\n    h3 {\n        color: $text_color; }\n    &_color {\n        background-color: red;\n        button {\n            @include box; } } }\n\n\n\n\n\n\n\n\n\n"
+	],
+	"names": [],
+	"mappings": ";AAMA,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,KAAK;CAMI;;;AAP/B,AAEI,MAFE,CAEF,EAAE,CAAC;EACC,KAAK,EATA,KAAK;CASW;;;AACxB,AAAD,YAAO,CAAC;EACJ,gBAAgB,EAAE,GAAG;CAEA;;;AAHxB,AAEG,YAFG,CAEH,MAAM,CAAC;EAVX,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;EACd,gBAAgB,EAAE,IAAI;CAQC"
+}
